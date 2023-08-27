@@ -29,6 +29,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: aliceblue;
 }
 
 .logo{
@@ -322,4 +323,15 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
     font-weight: 500;
     margin: 0 5px;
 }
+}
+
+.this{
+  display: flex;
+  
+  flex-direction: row;
+  justify-content:space-around ;
+}
+.user image{
+  margin-top: 200px;
+  border-color: #ff004f;
 }
